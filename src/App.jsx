@@ -1,6 +1,7 @@
 import { useContext } from 'react';
-import { Navbar } from './Components/Navbar';
-import { Sidebar } from './Components/Sidebar';
+import { Navbar } from './components/Navbar';
+import { Sidebar } from './components/Sidebar';
+import { Titleabout } from './components/Titleabout';
 import { UiContext } from './context/UiContext';
 
 
@@ -12,6 +13,7 @@ function App() {
       <>
         <Navbar/>
         {isSideBarOpen ? <Sidebar/> : null}
+        <Titleabout></Titleabout>
       </>
   );
 }
