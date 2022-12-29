@@ -1,6 +1,6 @@
 body {
     background: #000;
-    font-family: system-ui;
+    font-family: -apple-system, system-ui , BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -46,7 +46,7 @@ body {
     display: block;
     font-size: 120px;
     line-height: 1.001;
-    padding: 0 20px;
+    padding: 5 30px;
     position: relative;
   }
   
