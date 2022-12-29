@@ -1,4 +1,5 @@
 import { useContext } from 'react';
+import { About } from './Components/About';
 import { Navbar } from './components/Navbar';
 import { Sidebar } from './components/Sidebar';
 import { Titleabout } from './components/Titleabout';
@@ -13,7 +14,8 @@ function App() {
       <>
         <Navbar/>
         {isSideBarOpen ? <Sidebar/> : null}
-        <Titleabout></Titleabout>
+        <Titleabout/>
+        <About/>
       </>
   );
 }
