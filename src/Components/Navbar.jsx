@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import {MdMenu} from 'react-icons/md'
+import {MdMenu, MdOutlineWbSunny} from 'react-icons/md'
 import { UiContext } from '../context/UiContext'
 
 
@@ -9,9 +9,12 @@ export const Navbar = () => {
     
   return (
     <header className=' px-5 h-20 flex items-center justify-between'>
-        <div>    
-            <img className='h-12 w-12 rounded-full   ' src="/assets/images/alex-developer.jpg" alt='Alex Teodoro Tercero'></img>
-        </div>
+        <div> 
+            <button className='h-12 w-12 text-white '>
+                <MdOutlineWbSunny/>
+            </button>
+            //light mode to implement  
+        </div> 
         <ul className='hidden'>
             <li className='text-gris'>About me</li> 
             <li className='text-gris'>Projects</li> 
