@@ -10,9 +10,8 @@ export const Navbar = () => {
   return (
     <header className=' px-5 h-20 flex items-center justify-between'> 
             <button className='h-12 w-12 text-white '>
-                <MdOutlineWbSunny/>
+                <MdOutlineWbSunny className='text-2xl'/>
             </button>
-            //light mode to implement  
         <ul className='hidden'>
             <li className='text-gris'>About me</li> 
             <li className='text-gris'>Projects</li> 

@@ -4,7 +4,7 @@ import { Navbar } from './components/Navbar';
 import { Sidebar } from './components/Sidebar';
 import { Titleabout } from './components/Titleabout';
 import { UiContext } from './context/UiContext';
-
+import { Carousel } from './Components/Carousel';
 
 function App() {
   const {isSideBarOpen} = useContext(UiContext)
@@ -16,6 +16,7 @@ function App() {
         {isSideBarOpen ? <Sidebar/> : null}
         <Titleabout/>
         <About/>
+        <Carousel/>
       </>
   );
 }
